@@ -1,0 +1,233 @@
+.topBar {
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.topBar .container>div+div {
+    border-left: 1px solid #ccc;
+}
+
+.topBar .container a {
+    display: block;
+    height: 40px;
+    color: #666;
+}
+
+.topBar .container a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.topBar .icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.topBar .icon:first-child {
+    background: url('../img/电话.png') no-repeat;
+    background-size: cover;
+}
+
+.topBar .icon:last-child {
+    background: url('../img/下.png') no-repeat;
+    background-size: cover;
+}
+
+
+/* 导航 */
+
+.myNav {
+    z-index: 999999;
+    width: 100%;
+    top: 0;
+}
+
+.myNav .navbar {
+    background: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.myNav .navbar-brand {
+    margin-top: 20px;
+}
+
+.myNav .navbar-nav>li>a {
+    padding: 20px;
+    line-height: 50px;
+}
+
+@media (max-width:750px) {
+    .myNav .navbar-brand {
+        margin-top: 0px;
+    }
+}
+
+.myNav .navbar-nav>li.active a {
+    background: white;
+    border-bottom: 3px solid red;
+}
+
+.myNav .navbar-nav>li.active a:hover {
+    background: white;
+}
+
+.myNav .navbar-nav>li>a:hover {
+    background: white;
+    border-bottom: 3px solid red;
+    color: red;
+}
+
+.myNav .navbar {
+    margin-bottom: 0;
+}
+
+
+/* 轮播 */
+
+.slide .carousel-inner>.item>img {
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.slide #carousel-example-generic {
+    background: black;
+}
+
+
+/* 信息 */
+
+.info .media {
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.info .media:hover {
+    display: block;
+    color: red;
+}
+
+.info .icon {
+    background: url('../img/相机.png') no-repeat center center;
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.info .media-heading {
+    margin-top: 10px;
+}
+
+.info .container>div {
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+
+/* 预约 */
+
+.book {
+    margin-top: 15px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+}
+
+@media (min-width:910px) {
+    .book .container {
+        width: 900px;
+    }
+}
+
+.book .icon {
+    background: url('../img/相机.png') no-repeat center center;
+    background-size: 100%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+/* 产品区 */
+
+.product {
+    padding: 25px;
+    background: #eee;
+}
+
+.product .nav-tabs>li.active>a {
+    border: none;
+    border-bottom: 2px solid red;
+    background: #eee;
+    color: red;
+}
+
+.product .nav-tabs {
+    border-bottom: none;
+}
+
+.product .nav-tabs>li>a {
+    color: #333;
+}
+
+.product .nav-tabs>li>a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.product .tabParent {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product .tab-content .tab-pane .row>div {
+    margin-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.product .tab-content .tab-pane .row a {
+    display: block;
+    width: 95%;
+    height: 150px;
+    background: white;
+    box-shadow: 3px 3px 5px #ccc;
+    margin: 0 auto;
+}
+
+.product .tab-content .tab-pane .row .active a {
+    background: red;
+}
+
+
+/* 脚步 */
+
+.footer {
+    padding: 15px 0;
+    background: #4a4848;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    color: white;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+}
